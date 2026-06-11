@@ -219,15 +219,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@effect/rpc@npm:^0.73.0":
-  version: 0.73.0
-  resolution: "@effect/rpc@npm:0.73.0"
+"@effect/rpc@npm:^0.75.1":
+  version: 0.75.1
+  resolution: "@effect/rpc@npm:0.75.1"
   dependencies:
-    msgpackr: "npm:^1.11.4"
+    msgpackr: "npm:^1.11.10"
   peerDependencies:
-    "@effect/platform": ^0.94.0
-    effect: ^3.19.13
-  checksum: 10/4e10bcbdeafb0c50902fb44c34eb2a96cc77806f00e5e67b79bfdae20966b7c28548f0443a80761443841b0d0d3152b8ddb68098b3cde7fddf96fbd3b81e565b
+    "@effect/platform": ^0.96.1
+    effect: ^3.21.2
+  checksum: 10/a690ba56479ca3e3720aa9a2da36cab585e497e84c5d2b334e7db0e095fe5beb862b0d418e72483e901f72cb21d13cf64f55fde56f9dc7fcaa5dc74814efa64c
   languageName: node
   linkType: hard
 
@@ -674,7 +674,7 @@ __metadata:
     "@effect/platform-node-shared": "npm:^0.51.5"
     "@effect/printer": "npm:^0.46.0"
     "@effect/printer-ansi": "npm:^0.47.0"
-    "@effect/rpc": "npm:^0.73.0"
+    "@effect/rpc": "npm:^0.75.1"
     "@effect/sql": "npm:^0.49.0"
     "@effect/typeclass": "npm:^0.37.0"
     "@effect/workflow": "npm:^0.11.3"
@@ -699,7 +699,7 @@ __metadata:
     "@effect/experimental": "npm:^0.56.0"
     "@effect/platform": "npm:^0.92.1"
     "@effect/platform-node": "npm:^0.98.3"
-    "@effect/rpc": "npm:^0.73.0"
+    "@effect/rpc": "npm:^0.75.1"
     "@effect/sql": "npm:^0.49.0"
     "@effect/workflow": "npm:^0.11.3"
     effect: "npm:^3.18.4"
@@ -719,7 +719,7 @@ __metadata:
     "@effect/platform": "npm:^0.92.1"
     "@effect/platform-node": "npm:^0.98.3"
     "@effect/platform-node-shared": "npm:^0.51.5"
-    "@effect/rpc": "npm:^0.73.0"
+    "@effect/rpc": "npm:^0.75.1"
     "@effect/sql": "npm:^0.49.0"
     "@effect/vitest": "npm:^0.27.0"
     "@effect/workflow": "npm:^0.11.3"
@@ -3978,6 +3978,18 @@ __metadata:
   bin:
     download-msgpackr-prebuilds: bin/download-prebuilds.js
   checksum: 10/4bfe45cf6968310570765951691f1b8e85b6a837e5197b8232fc9285eef4b457992e73118d9d07c92a52cc23f9e837897b135e17ea0f73e3604540434051b62f
+  languageName: node
+  linkType: hard
+
+"msgpackr@npm:^1.11.10":
+  version: 1.12.1
+  resolution: "msgpackr@npm:1.12.1"
+  dependencies:
+    msgpackr-extract: "npm:^3.0.2"
+  dependenciesMeta:
+    msgpackr-extract:
+      optional: true
+  checksum: 10/90f5eabb2b059f441714ec0b09cfccea589caf36604598ae44a023e6c113f97889ca6c899beb318bc1a6bb7d6b4d6bef75a6fc13a01aa49c3111ae08da2c6db5
   languageName: node
   linkType: hard
 
