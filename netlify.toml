@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = ".next/standalone/.next"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["react", "react-dom"]
+
+[env.production]
+  NODE_ENV = "production"
+
+[env.development]
+  NODE_ENV = "development"
