@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = ".next/standalone/.next"
+  publish = ".next/standalone"
   functions = "netlify/functions"
 
 [[redirects]]
@@ -10,7 +10,6 @@
 
 [functions]
   node_bundler = "esbuild"
-  external_node_modules = ["react", "react-dom"]
 
 [env.production]
   NODE_ENV = "production"
